@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>MISSION TO MARS</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="jumbotron text-center">
+      <h1>Mission to Mars: Please visit the following sources...</h1>
+      <p>News. Images. Tweets. Facts. Links of images.</p>
+      <p><a class="btn btn-primary btn-lg" href="/scrape" role="button">Get Data!</a></p>
+    </div>
+    <img src="{{..\"Images\mission_to_mars.png" }}" alt="Mars">
+    <h2>The information are:</h2>
+    <h3>News Title: {{ nasa_db.news_title }}</h3>
+    <h3>News Article: {{ nasa_db.news_p }}</h3>
+  </div>
+  </div>
+</body>
+
+</html>
